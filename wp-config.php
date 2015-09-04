@@ -79,6 +79,9 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+/* AWS credentials for AWS plugins */
+define('AWS_ACCESS_KEY_ID', getenv('AWS_ACCESS_KEY_ID'));
+define('AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
 
 /* That's all, stop editing! Happy blogging. */
 
